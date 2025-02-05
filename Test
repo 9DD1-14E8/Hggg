@@ -1,0 +1,478 @@
+<LinearLayout
+
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+
+	xmlns:tools="http://schemas.android.com/tools"
+
+	android:layout_width="match_parent"
+
+	android:layout_height="match_parent"
+
+	android:orientation="vertical">
+
+	<RelativeLayout
+
+		android:id="@+id/linear1"
+
+		android:layout_width="match_parent"
+
+		android:layout_height="match_parent"
+
+		android:orientation="vertical">
+
+		<LinearLayout
+
+			android:id="@+id/linear2"
+
+			android:layout_width="match_parent"
+
+			android:layout_height="wrap_content"
+
+			android:orientation="horizontal" />
+
+		<LinearLayout
+
+			android:id="@+id/login_layout"
+
+			android:layout_width="match_parent"
+
+			android:layout_height="match_parent"
+
+			android:padding="8dp"
+
+			android:gravity="center_horizontal|center_vertical"
+
+			android:orientation="vertical"
+
+			android:layout_weight="1">
+
+			<TextView
+
+				android:id="@+id/textview2"
+
+				android:layout_width="0dp"
+
+				android:layout_height="0dp"
+
+				android:text="TextView"
+
+				android:textSize="12sp"
+
+				android:textColor="#000000" />
+
+			<LinearLayout
+
+				android:id="@+id/linear3"
+
+				android:layout_width="330dp"
+
+				android:layout_height="wrap_content"
+
+				android:background="#FFFFFF"
+
+				android:gravity="center_horizontal|center_vertical"
+
+				android:orientation="vertical">
+
+				<LinearLayout
+
+					android:id="@+id/linear4"
+
+					android:layout_width="match_parent"
+
+					android:layout_height="wrap_content"
+
+					android:layout_marginBottom="5dp"
+
+					android:gravity="center_horizontal|center_vertical"
+
+					android:orientation="vertical">
+
+					<TextView
+
+						android:id="@+id/textview1"
+
+						android:layout_width="wrap_content"
+
+						android:layout_height="wrap_content"
+
+						android:layout_marginTop="8dp"
+
+						android:layout_marginBottom="8dp"
+
+						android:text="FJM VIP SERVER"
+
+						android:textSize="30sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#212121" />
+
+				</LinearLayout>
+
+				<LinearLayout
+
+					android:id="@+id/linear5"
+
+					android:layout_width="match_parent"
+
+					android:layout_height="35dp"
+
+					android:layout_marginLeft="9dp"
+
+					android:layout_marginRight="9dp"
+
+					android:layout_marginBottom="8dp"
+
+					android:gravity="center_horizontal|center_vertical"
+
+					android:orientation="horizontal">
+
+					<ImageView
+
+						android:id="@+id/imageview1"
+
+						android:layout_width="20dp"
+
+						android:layout_height="20dp"
+
+						android:layout_marginLeft="8dp"
+
+						android:src="@drawable/ic_timer_auto_black"
+
+						android:scaleType="fitCenter" />
+
+					<EditText
+
+						android:id="@+id/user"
+
+						android:layout_width="match_parent"
+
+						android:layout_height="match_parent"
+
+						android:layout_marginLeft="8dp"
+
+						android:background="@android:color/transparent"
+
+						android:gravity="center_vertical"
+
+						android:textSize="12sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#000000"
+
+						android:hint="Username"
+
+						android:textColorHint="#000000"
+
+						android:alpha="0.5" />
+
+				</LinearLayout>
+
+				<LinearLayout
+
+					android:id="@+id/linear6"
+
+					android:layout_width="match_parent"
+
+					android:layout_height="35dp"
+
+					android:layout_marginLeft="9dp"
+
+					android:layout_marginRight="9dp"
+
+					android:layout_marginBottom="10dp"
+
+					android:gravity="center_horizontal|center_vertical"
+
+					android:orientation="horizontal">
+
+					<ImageView
+
+						android:id="@+id/imageview2"
+
+						android:layout_width="20dp"
+
+						android:layout_height="20dp"
+
+						android:layout_marginLeft="8dp"
+
+						android:src="@drawable/ic_https_black"
+
+						android:scaleType="fitCenter"
+
+						android:alpha="0.8" />
+
+					<EditText
+
+						android:id="@+id/token"
+
+						android:layout_width="match_parent"
+
+						android:layout_height="match_parent"
+
+						android:layout_marginLeft="8dp"
+
+						android:background="@android:color/transparent"
+
+						android:gravity="center_vertical"
+
+						android:textSize="12sp"
+
+						android:textColor="#000000"
+
+						android:hint="Password"
+
+						android:textColorHint="#000000"
+
+						android:inputType="textPassword"
+
+						android:alpha="0.5" />
+
+				</LinearLayout>
+
+				<LinearLayout
+
+					android:id="@+id/linear7"
+
+					android:layout_width="match_parent"
+
+					android:layout_height="wrap_content"
+
+					android:layout_marginBottom="5dp"
+
+					android:orientation="horizontal">
+
+					<Switch
+
+						android:id="@+id/switch1"
+
+						android:layout_width="wrap_content"
+
+						android:layout_height="wrap_content"
+
+						android:layout_marginLeft="8dp"
+
+						android:padding="8dp"
+
+						android:text="Save Login  "
+
+						android:textSize="12sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#000000"
+
+						android:alpha="0.5" />
+
+					<LinearLayout
+
+						android:id="@+id/linear9"
+
+						android:layout_width="wrap_content"
+
+						android:layout_height="20dp"
+
+						android:padding="8dp"
+
+						android:orientation="vertical"
+
+						android:layout_weight="1" />
+
+					<Switch
+
+						android:id="@+id/switch2"
+
+						android:layout_width="wrap_content"
+
+						android:layout_height="wrap_content"
+
+						android:layout_marginRight="8dp"
+
+						android:padding="8dp"
+
+						android:text="Show Password  "
+
+						android:textSize="12sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#000000"
+
+						android:alpha="0.5" />
+
+				</LinearLayout>
+
+				<LinearLayout
+
+					android:id="@+id/linear8"
+
+					android:layout_width="match_parent"
+
+					android:layout_height="wrap_content"
+
+					android:padding="3dp"
+
+					android:gravity="center_horizontal|center_vertical"
+
+					android:orientation="vertical">
+
+					<Button
+
+						android:id="@+id/button1"
+
+						android:layout_width="match_parent"
+
+						android:layout_height="40dp"
+
+						android:layout_margin="5dp"
+
+						android:background="#000000"
+
+						android:gravity="center_horizontal|center_vertical"
+
+						android:text="LOGIN"
+
+						android:textSize="16sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#FFFFFF" />
+
+					<Button
+
+						android:id="@+id/button2"
+
+						android:layout_width="match_parent"
+
+						android:layout_height="40dp"
+
+						android:layout_margin="5dp"
+
+						android:background="#000000"
+
+						android:gravity="center_horizontal|center_vertical"
+
+						android:text="FREE HACK FJM"
+
+						android:textSize="16sp"
+
+						android:textStyle="bold"
+
+						android:textColor="#FFFFFF" />
+
+					<LinearLayout
+
+						android:id="@+id/linear12"
+
+						android:layout_width="match_parent"
+
+						android:layout_height="wrap_content"
+
+						android:layout_marginLeft="10dp"
+
+						android:layout_marginTop="5dp"
+
+						android:layout_marginRight="10dp"
+
+						android:layout_marginBottom="5dp"
+
+						android:padding="8dp"
+
+						android:background="#E0E0E0"
+
+						android:gravity="center_horizontal|center_vertical"
+
+						android:orientation="horizontal">
+
+						<ImageView
+
+							android:id="@+id/imageview3"
+
+							android:layout_width="20dp"
+
+							android:layout_height="20dp"
+
+							android:src="@drawable/ic_chat_black"
+
+							android:scaleType="fitStart"
+
+							android:alpha="0.5" />
+
+						<TextView
+
+							android:id="@+id/textview12"
+
+							android:layout_width="wrap_content"
+
+							android:layout_height="wrap_content"
+
+							android:padding="5dp"
+
+							android:text="Need Help\?"
+
+							android:textSize="12sp"
+
+							android:textColor="#78909C" />
+
+						<TextView
+
+							android:id="@+id/textview13"
+
+							android:layout_width="wrap_content"
+
+							android:layout_height="wrap_content"
+
+							android:padding="5dp"
+
+							android:text="Contact get code "
+
+							android:textSize="12sp"
+
+							android:textStyle="bold"
+
+							android:textColor="#000000" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<TextView
+
+				android:id="@+id/v1"
+
+				android:layout_width="0dp"
+
+				android:layout_height="0dp"
+
+				android:text="TextView"
+
+				android:textSize="12sp"
+
+				android:textColor="#000000" />
+
+			<TextView
+
+				android:id="@+id/v2"
+
+				android:layout_width="0dp"
+
+				android:layout_height="0dp"
+
+				android:text="TextView"
+
+				android:textSize="12sp"
+
+				android:textColor="#000000" />
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
